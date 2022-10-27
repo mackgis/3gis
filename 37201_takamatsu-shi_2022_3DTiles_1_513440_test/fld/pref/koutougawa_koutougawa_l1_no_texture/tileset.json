@@ -1,0 +1,60 @@
+{
+	"asset" : {
+		"version" : "1.0"
+	},
+	"properties" : {
+		"attributes" : {},
+		"name" : {},
+		"rank" : {},
+		"rank_code" : {
+			"minimum" : 1,
+			"maximum" : 2
+		},
+		"rank_org" : {},
+		"rank_org_code" : {}
+	},
+	"geometricError" : 1109.286110960474,
+	"root" : {
+		"boundingVolume" : {
+			"region" : [ 2.3387411976724013, 0.5991715322096532, 2.339264796448, 0.5995205980600522, 2.622, 4.305 ]
+		},
+		"geometricError" : 1109.286110960474,
+		"refine" : "REPLACE",
+		"content" : {
+			"boundingVolume" : {
+				"region" : [ 2.3387411976724013, 0.5991715322096532, 2.339264796448, 0.5995205980600522, 2.622, 4.305 ]
+			},
+			"uri" : "data/data2.b3dm"
+		},
+		"children" : [
+			{
+				"boundingVolume" : {
+					"region" : [ 2.3389157305976007, 0.5993460651348528, 2.339264796448, 0.5995205980600522, 2.622, 3.143 ]
+				},
+				"geometricError" : 0,
+				"refine" : "REPLACE",
+				"content" : {
+					"boundingVolume" : {
+						"region" : [ 2.3389157305976007, 0.5993460651348528, 2.339264796448, 0.5995205980600522, 2.622, 3.143 ]
+					},
+					"uri" : "data/data0.b3dm"
+				},
+				"children" : []
+			},
+			{
+				"boundingVolume" : {
+					"region" : [ 2.3387411976724013, 0.5991715322096532, 2.3390029970602004, 0.5993460651348528, 4.3, 4.305 ]
+				},
+				"geometricError" : 0,
+				"refine" : "REPLACE",
+				"content" : {
+					"boundingVolume" : {
+						"region" : [ 2.3387411976724013, 0.5991715322096532, 2.3389157305976007, 0.5993460651348528, 4.3, 4.305 ]
+					},
+					"uri" : "data/data1.b3dm"
+				},
+				"children" : []
+			}
+		]
+	}
+}
