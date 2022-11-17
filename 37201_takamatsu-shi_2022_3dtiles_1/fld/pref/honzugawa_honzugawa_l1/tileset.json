@@ -1,0 +1,46 @@
+{
+	"asset" : {
+		"version" : "1.0"
+	},
+	"properties" : {
+		"attributes" : {},
+		"name" : {},
+		"rank" : {},
+		"rank_code" : {
+			"minimum" : 3,
+			"maximum" : 3
+		},
+		"rank_org" : {},
+		"rank_org_code" : {}
+	},
+	"geometricError" : 1109.2720525586703,
+	"root" : {
+		"boundingVolume" : {
+			"region" : [ 2.3383921318220025, 0.5979498017332573, 2.3385666647472023, 0.5981243346584567, 43.173, 43.33 ]
+		},
+		"geometricError" : 1109.2720525586703,
+		"refine" : "REPLACE",
+		"content" : {
+			"boundingVolume" : {
+				"region" : [ 2.3383921318220025, 0.5979498017332573, 2.3385666647472023, 0.5981243346584567, 43.173, 43.33 ]
+			},
+			"uri" : "data/data1.b3dm"
+		},
+		"children" : [
+			{
+				"boundingVolume" : {
+					"region" : [ 2.3383921318220025, 0.5979498017332573, 2.3385666647472023, 0.5981243346584567, 43.173, 43.33 ]
+				},
+				"geometricError" : 0,
+				"refine" : "REPLACE",
+				"content" : {
+					"boundingVolume" : {
+						"region" : [ 2.3383921318220025, 0.5979498017332573, 2.3385666647472023, 0.5981243346584567, 43.173, 43.33 ]
+					},
+					"uri" : "data/data0.b3dm"
+				},
+				"children" : []
+			}
+		]
+	}
+}

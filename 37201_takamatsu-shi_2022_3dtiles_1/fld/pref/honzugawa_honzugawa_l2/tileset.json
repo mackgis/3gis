@@ -1,0 +1,74 @@
+{
+	"asset" : {
+		"version" : "1.0"
+	},
+	"properties" : {
+		"attributes" : {},
+		"name" : {},
+		"rank" : {},
+		"rank_code" : {
+			"minimum" : 1,
+			"maximum" : 4
+		},
+		"rank_org" : {},
+		"rank_org_code" : {}
+	},
+	"geometricError" : 1109.2824815328195,
+	"root" : {
+		"boundingVolume" : {
+			"region" : [ 2.337868533046404, 0.5977752688080579, 2.3390902635228006, 0.5995205980600522, 2.757, 49.202 ]
+		},
+		"geometricError" : 1109.2824815328195,
+		"refine" : "REPLACE",
+		"content" : {
+			"boundingVolume" : {
+				"region" : [ 2.337868533046404, 0.5977752688080579, 2.3390902635228006, 0.5995205980600522, 2.757, 49.202 ]
+			},
+			"uri" : "data/data3.b3dm"
+		},
+		"children" : [
+			{
+				"boundingVolume" : {
+					"region" : [ 2.3384793982846026, 0.598647933434055, 2.3390902635228006, 0.5995205980600522, 2.757, 4.211 ]
+				},
+				"geometricError" : 0,
+				"refine" : "REPLACE",
+				"content" : {
+					"boundingVolume" : {
+						"region" : [ 2.3387411976724013, 0.5991715322096532, 2.3390902635228006, 0.5995205980600522, 2.757, 4.211 ]
+					},
+					"uri" : "data/data0.b3dm"
+				},
+				"children" : []
+			},
+			{
+				"boundingVolume" : {
+					"region" : [ 2.3383921318220025, 0.5977752688080579, 2.3390902635228006, 0.598647933434055, 45.062, 49.202 ]
+				},
+				"geometricError" : 0,
+				"refine" : "REPLACE",
+				"content" : {
+					"boundingVolume" : {
+						"region" : [ 2.3383921318220025, 0.5977752688080579, 2.3385666647472023, 0.5981243346584567, 45.062, 49.202 ]
+					},
+					"uri" : "data/data1.b3dm"
+				},
+				"children" : []
+			},
+			{
+				"boundingVolume" : {
+					"region" : [ 2.337868533046404, 0.5977752688080579, 2.3384793982846026, 0.598647933434055, 24.44, 24.44 ]
+				},
+				"geometricError" : 0,
+				"refine" : "REPLACE",
+				"content" : {
+					"boundingVolume" : {
+						"region" : [ 2.337868533046404, 0.5984734005088556, 2.338043065971604, 0.598647933434055, 24.44, 24.44 ]
+					},
+					"uri" : "data/data2.b3dm"
+				},
+				"children" : []
+			}
+		]
+	}
+}
